@@ -1,0 +1,41 @@
+{
+    "Navbar":{
+        "home": "Strona główna",
+        "offer": "Nasza oferta",
+        "contact": "Kontakt",
+        "transport": "Transport"
+    },
+
+    "Home":{
+        "describe": "Niemiecka jakość bezpośrednio od polskiego producenta.",
+        "start": "Oferta"
+    },
+
+    "Footer":{},
+
+    "Login":{
+        "forgot": "Zapomniałem hasła",
+        "forgotEmail": "Podaj adres Email",
+        "login": "Login",
+        "password": "Hasło",
+        "logIn": "Zaloguj",
+        "register": "Nie masz konta? Rejestracja",
+        "remind": "Przypomnij"
+    },
+
+    "Register":{
+        "registration": "Rejestracja",
+        "register": "Zarejestruj",
+        "login": "Login",
+        "email": "Email",
+        "password": "Hasło",
+        "policy": "Regulamin",
+        "acceptPolicy": "Akceptuję",
+        "haveAccont": "Masz konto? Zaloguj się"
+    },
+    
+    "Movies":{
+        "sortby": "Filtruj"
+    }
+
+}

@@ -1,0 +1,33 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" routerLink="/">
+        <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="87" height="50.352" viewBox="0 0 87 50.352">
+            <path class="logo" data-name="Path 4" d="M36.2,124.091c1.232,0,1.408-4.225,1.408-4.225H10.323v-2.817H86.2l.176,2.817H40.252c-1.408,0-1.408,1.584-1.408,1.584V159.3s11.091,4.049,13.028,4.049,1.937-1.232,1.937-1.232l-.176-32.746H51.168a1.379,1.379,0,0,0-1.408,1.408v25.88H46.942l.176-32.746H89.2s1.408,0,1.408-1.232V113H6.274a1.269,1.269,0,0,0-1.408,1.584l.088,9.243S34.971,124.091,36.2,124.091Z" transform="translate(-4.837 -113)" fill="#fff"/>
+            <path class="logo" data-name="Path 5" d="M7.762,198H32.234c1.584,0,1.232,1.585,1.232,1.585V206.1a1.253,1.253,0,0,1-1.408,1.408h-6.69v-5.282H13.044v5.282l20.422,9.683v7.922a2.451,2.451,0,0,1-2.641,2.641H6.354a1.379,1.379,0,0,1-1.408-1.408v-6.514a1.253,1.253,0,0,1,1.408-1.408h6.69l.176,5.458H25.368v-4.225L4.946,208.211v-7.394A2.506,2.506,0,0,1,7.762,198Z" transform="translate(-4.917 -183.035)" fill="#fff"/>
+            <path class="logo" data-name="Path 6" d="M359.753,222.472V202.225s0-4.225-5.458-4.225H330v29.753h23.063C359.929,227.753,359.753,222.472,359.753,222.472Zm-8.1.176c0,1.232-2.993,1.232-2.993,1.232H338.1V202.225h9.507c4.049,0,4.049,2.817,4.049,2.817Z" transform="translate(-272.754 -183.035)" fill="#fff"/>
+          </svg>
+          
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">{{'Navbar.offer' | translate}}</a>
+            </li>      
+            <li class="nav-item active">
+                <a class="nav-link" href="#">{{'Navbar.transport' | translate}}</a>
+
+            </li>  
+            <li class="nav-item active">
+                <a class="nav-link" href="#">{{'Navbar.contact' | translate}}</a>
+
+            </li>   
+        </ul>
+            <div class="lang btn-group ml-auto">
+                <button (click)="this.lang.useLanguage('pl')" class="dropdown-item nav-item" type="button"><img id="flag" src="../../assets/PL.svg"></button>
+                <button (click)="this.lang.useLanguage('de')" class="dropdown-item nav-item" type="button"><img id="flag" src="../../assets/DE.svg"></button>
+            </div>
+    </div>
+</nav>

@@ -1,0 +1,40 @@
+
+    <form id="login">
+        <h1>{{'Login.logIn' | translate}}</h1>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">{{'Login.login' | translate}}</span>
+            </div>
+            <!-- <input type="text" class="form-control" id="username"> -->
+            <input type="text" class="form-control" id="username" [(ngModel)]="this.login" [ngModelOptions]="{standalone: true}">
+        </div>
+        <br>
+
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">{{'Login.password' | translate}}</span>
+            </div>
+            <input type="password" class="form-control" id="password" [(ngModel)]="this.password" [ngModelOptions]="{standalone: true}">
+        </div>
+
+        <br>
+
+        <div>
+            <!-- <input id="btn-log" type="submit" value="{{'Login.login' | translate}}" class="btn btn-primary btn-sm my-2 my-sm-"> -->
+            <input id="btn-log" type="submit" value="{{'Login.login' | translate}}" class="btn btn-primary btn-sm my-2" (click)="log()">
+            <a class="text-secondary" id="reg-text" routerLink="/register">{{'Login.register' | translate}}</a>
+        </div>
+
+        
+  
+    </form>
+
+
+
+    <div id=bg>
+            <div id="bg1"></div>
+    </div>
+
+
+    
+

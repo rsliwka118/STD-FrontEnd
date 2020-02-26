@@ -1,0 +1,79 @@
+@keyframes log_anim {
+    from {top: 10px;}
+    to {top: 50px;}
+}
+
+
+#bg{
+  position: fixed; 
+  width: 100%;
+  top:0;
+  z-index: -1;
+}
+#bg1{
+position: relative;
+width: 100%;
+height: 100vh;
+background: url(" ../../../../assets/log_reg_background.jpg") no-repeat;
+background-size: cover;
+background-position: top;
+z-index: -1;
+}
+
+  #login{
+    margin: auto;
+    top: 50px;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, .6);
+    padding: 20px;
+    width: 25%;
+    min-width: 400px;
+    position: relative;
+    z-index: 90;
+
+    animation-name: log_anim;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-out;
+  }
+
+  #btn-log{
+    
+    border: none;
+    -webkit-box-shadow: 0 5px 0 #386D9B ;
+    -moz-box-shadow: 0 5px 0 #386D9B ;
+    box-shadow: 0 5px 0 rgb(14, 84, 145);
+    background: #4E87B8;
+    color: #ffffff;
+    border-radius: 0px !important;
+}
+
+.btn-primary {
+    background: rgb(59, 147, 230);
+    color: #ffffff;
+}
+
+#btn-log:active:focus {
+    position: relative;
+    background: rgb(137, 208, 255);
+    box-shadow: none;
+    top:5px;
+}
+
+#reg-text{
+    margin-top: 20px;
+    float: right;
+}
+
+.text-secondary:hover{
+    color: white !important;
+}
+
+h1{
+    font-family: 'Lemon';
+    font-size: 20px;
+    color:white;
+}
+
+/* .wrapper {
+  min-height: calc(100vh - 56px);
+} */

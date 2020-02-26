@@ -1,0 +1,45 @@
+<form id="reg">
+    <h1>{{'Register.registration' | translate}}</h1>
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text">{{'Register.login' | translate}}</span>
+        </div>
+        <!-- <input type="text" class="form-control" id="username"> -->
+        <input type="text" class="form-control" id="username" [(ngModel)]="this.login" [ngModelOptions]="{standalone: true}">
+    </div>
+
+    <br>
+
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text">{{'Register.email' | translate}}</span>
+        </div>
+        <input type="text" class="form-control" id="email" [(ngModel)]="this.email" [ngModelOptions]="{standalone: true}">
+    </div>
+
+    <br>
+
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text">{{'Register.password' | translate}}</span>
+        </div>
+        <!-- <input type="password" class="form-control" id="username"> -->
+        <input type="password" class="form-control" id="password" [(ngModel)]="this.password" [ngModelOptions]="{standalone: true}">
+    </div>
+
+
+    <div class="form-check">
+        <input type="checkbox" class="form-check-input" [(ngModel)]="this.acceptrules" [ngModelOptions]="{standalone: true}">
+        <label class="form-check-label" for="policyCheckBox">{{'Register.acceptPolicy' | translate}} <a class="policyText" routerLink="/policy">{{'Register.policy' | translate}}</a></label>
+    </div>
+    <div>
+        <input id="btn-reg" type="submit" (click)="reg()" value="{{'Register.register' | translate}}" class="btn btn-primary btn-sm my-2" [disabled]="!(this.acceptrules) || (this.login.length < 3)">
+        <a class="text-secondary" id="log-text" routerLink="/login">{{'Register.haveAccont' | translate}}</a>
+    </div>
+</form>
+
+
+
+<div id="bg">
+   <div id="bg1"></div>
+</div>

@@ -1,0 +1,20 @@
+<!-- <div id="loading" *ngIf="this.User.isLoggedIn == undefined"> -->
+
+<div id="loading" class="container-fluid" *ngIf="(this.User.isLoggedIn | async ) == undefined">
+    <div class="loadingcircle"></div>
+</div>
+
+<!-- <div *ngIf="this.User.isLoggedIn != undefined"> -->
+<div *ngIf="(this.User.isLoggedIn | async) != undefined">
+    <app-nav></app-nav>
+
+    <Angular-Bootstrap-Toasts-Container [Placement]="this.Alerts.ContainerPlacement.value"></Angular-Bootstrap-Toasts-Container>
+    
+    <div class="wrapper">
+        <router-outlet></router-outlet>
+    </div>
+     
+    <app-footer></app-footer> 
+</div>
+
+
