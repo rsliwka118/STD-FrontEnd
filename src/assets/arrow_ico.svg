@@ -1,0 +1,98 @@
+<svg id="ev7aqre017nq1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 45 50.503000" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+    <style>
+        <![CDATA[
+        #ev7aqre017nq4_to {
+            animation: ev7aqre017nq4_to__to 2000ms linear infinite normal forwards
+        }
+
+        @keyframes ev7aqre017nq4_to__to {
+            0% {
+                transform: translate(9px, 10.500000px);
+                animation-timing-function: cubic-bezier(0.775000, 0, 0.285000, 0.965000)
+            }
+
+            46.666667% {
+                transform: translate(9.047000px, 16.273000px);
+                animation-timing-function: cubic-bezier(0.775000, 0, 0.285000, 0.965000)
+            }
+
+            100% {
+                transform: translate(9px, 10.500000px)
+            }
+
+        }
+
+        #ev7aqre017nq5_to {
+            animation: ev7aqre017nq5_to__to 2000ms linear infinite normal forwards
+        }
+
+        @keyframes ev7aqre017nq5_to__to {
+            0% {
+                transform: translate(-8.970000px, 0px)
+            }
+
+            6.666667% {
+                transform: translate(-8.970000px, 0px);
+                animation-timing-function: cubic-bezier(0.775000, 0, 0.285000, 0.965000)
+            }
+
+            30% {
+                transform: translate(-8.926140px, 6.998500px);
+                animation-timing-function: cubic-bezier(0.775000, 0, 0.285000, 0.965000)
+            }
+
+            100% {
+                transform: translate(-8.970000px, 0px)
+            }
+
+        }
+
+        #ev7aqre017nq7_to {
+            animation: ev7aqre017nq7_to__to 2000ms linear infinite normal forwards
+        }
+
+        @keyframes ev7aqre017nq7_to__to {
+            0% {
+                transform: translate(-8.970000px, 0px)
+            }
+
+            6.666667% {
+                transform: translate(-8.970000px, 0px);
+                animation-timing-function: cubic-bezier(0.775000, 0, 0.285000, 0.965000)
+            }
+
+            30% {
+                transform: translate(-8.926140px, 6.998500px);
+                animation-timing-function: cubic-bezier(0.775000, 0, 0.285000, 0.965000)
+            }
+
+            100% {
+                transform: translate(-8.970000px, 0px)
+            }
+
+        }
+        ]]>
+    </style>
+    <g id="ev7aqre017nq2" transform="matrix(1 0 0 1 8.97100000000000 0.00300000000000)">
+        <g id="ev7aqre017nq3" transform="matrix(1 0 0 1 -8.97000000000000 0)">
+            <g id="ev7aqre017nq4_to" transform="translate(9,10.500000)">
+                <rect id="ev7aqre017nq4" width="27" height="28" rx="0" ry="0" transform="translate(0,0)"
+                    fill="rgb(86,169,241)" stroke="none" stroke-width="1" />
+            </g>
+        </g>
+        <g id="ev7aqre017nq5_to" transform="translate(-8.970000,0)">
+            <g id="ev7aqre017nq5" transform="translate(0,0)">
+                <line id="ev7aqre017nq6" x1="0" y1="0" x2="0.047000" y2="20.546000"
+                    transform="matrix(1 0 0 1 22.50000000000000 6)" fill="rgb(255,255,255)" stroke="rgb(255,255,255)"
+                    stroke-width="3" />
+            </g>
+        </g>
+        <g id="ev7aqre017nq7_to" transform="translate(-8.970000,0)">
+            <g id="ev7aqre017nq7" transform="translate(0,0)">
+                <path id="ev7aqre017nq8" d="M5.500000,0L11,8L0,8Z" transform="matrix(-1 0 -0 -1 28 30.50000000000000)"
+                    fill="rgb(255,255,255)" stroke="rgb(255,255,255)" stroke-width="3" />
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,46 +1,23 @@
 {
     "Navbar":{
-        "home": "Home",
-        "base": "Movies",
-        "contact": "Contact",
-        "logIn": "Sign In",
-        "logOut": "Log Out",
-        "dash": "Dashboard",
-        "myAccount": "MyAccount"
+        "home": "DEStrona główna",
+        "offer": "DENasza oferta",
+        "contact": "DEKontakt",
+        "transport": "DETransport"
     },
 
     "Home":{
-        "describe": "The best movie database!",
-        "start": "Get Ready!"
-    },
-    
-    "Footer":{},
-
-    "Login":{
-        "forgot": "Forgot password",
-        "forgotEmail": "E-mail address",
-        "login": "Login",
-        "logIn": "Sign In",
-        "password": "Pass",
-        "register": "You do not have an account? Registration",
-        "remind": "Remind"
+        "describe": "DENiemiecka jakość bezpośrednio od polskiego producenta.",
+        "start": "DEOferta"
     },
 
-    "Register":{
-        "registration": "Registration",
-        "register": "Register",
-        "login": "Name",
-        "email": "Email",
-        "password": "Password",
-        "policy": "Terms & conditions",
-        "acceptPolicy": "I accept the",
-        "haveAccont": "Do you have an account? Sign In"
-    },
-
-    "Movies":{
-        "sortby": "Sort by"
+    "Contact":{
+        "name": "STD-Kunstschmiede",
+        "address": "ul. Królewska 1A, 66-620 Gubin",
+        "mail": "std.kunstschmiede@gmail.com",
+        "web": "www.std-kunstschmiede.pl",
+        "pl-number": "PL +48 667 734 667",
+        "de-number": "DE 017 339 674 06"
     }
 
-    
-    
 }

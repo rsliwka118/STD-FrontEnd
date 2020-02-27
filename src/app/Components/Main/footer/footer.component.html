@@ -1,23 +1,30 @@
 <div class="footer page-footer font-small blue pt-4">
 
-    <div [ngStyle]="footerStyles()" class="container-fluid text-center text-md-left">
+    <div class="container-fluid text-center text-md-left">
 
         <div class="row">
             <div class="menu">
-                <a class="menu-item" routerLink="/"><strong>Strona główna •</strong></a>
-                <a class="brand" routerLink="/">FILMEXD</a>
-                <a class="menu-item" routerLink="/register"><strong>• Rejestracja</strong></a>
+                <div class="brand">Copyright © 2015-2016 std-kunstschmiede.pl. All rights reserved.</div>
             </div>
         </div>
 
     </div>
 
-    
-
 </div>
-<div *ngIf="!this.user.fooStyle" id="footer-bottom" class="container-fluid text-center">
+<div id="footer-bottom" class="container-fluid text-center">
         <div class="row">
-            <h6>Strona została zrealizowana w ramach zaliczenia przedmotu "Programowanie aplikacji biznesowych" przez Radosława Śliwkę i Kamila Kuberskiego.</h6>
-            <h6>Większość danych pochodzących z bazy filmów należy do serwisu <a href="https://www.filmweb.pl">FilmWeb</a>!</h6>                     
+            <div class="col-3">
+                <div class="menu-info" id="title">{{'Contact.name' | translate}}</div>
+                <div class="menu-info">{{'Contact.address' | translate}}</div>
+                <div class="menu-info">{{'Contact.mail' | translate}}</div>
+                <div class="menu-info">{{'Contact.web' | translate}}</div>
+                <div class="menu-info">{{'Contact.pl-number' | translate}}</div>
+                <div class="menu-info">{{'Contact.de-number' | translate}}</div>
+            </div>
+            <div class="col-2">
+                <div><a class="menu-item" href="#">{{'Navbar.offer' | translate}}</a></div>
+                <div><a class="menu-item" href="#">{{'Navbar.transport' | translate}}</a></div>
+                <div><a class="menu-item" href="#">{{'Navbar.contact' | translate}}</a></div>
+            </div>     
         </div>
 </div>

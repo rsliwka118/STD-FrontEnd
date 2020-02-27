@@ -11,6 +11,15 @@
     }
 }
 
+.contact-ico{
+    position: fixed;
+    z-index: 1000;
+    bottom: 10px;
+    right: 0;
+    padding-right: 15%;
+    /* transition: all 0.2s; */
+}
+
 #logo
 {
     width: 80px;
@@ -34,6 +43,7 @@
     width: 100%;
     padding-top: 0px;
     padding-bottom: 0px;
+    min-height: 62px;
 }
 
 .navbar-inverse{
@@ -110,4 +120,10 @@
         padding-left: 15%;
         padding-right: 15%;
     }
+}
+
+@media (max-width: 992px){
+    .contact-ico{
+        padding-right: 10px;
+    }    
 }

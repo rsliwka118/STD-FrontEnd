@@ -1,22 +1,66 @@
-<div class="container">
+<div class="container jumb">
     <div id="jumb-best" class="jumbotron">
         <h1 class="display-4">STD-KUNSTSCHMIEDE</h1>
         <br>
         <h2 class="display-4">{{'Home.describe' | translate}}</h2>
         <br>
         <p class="lead">
-            <a routerLink="/register">
+            <a href="/#">
                 <button type="button" class="buttn">{{'Home.start' | translate}}</button>
             </a>
         </p>
     </div>
-
-
 </div>
 
-<div class="container-fluid">
-    <div class="container all">
+<div class="container-fluid warranty-container">
+    
+    <div class="container">
+        <div class="row warranty">
+            <div class="arrow"><img id="flag" src="../../assets/arrow_ico.svg"></div>
+            <div class="warranty-title">{{'Warranty.warranty' | translate}}</div>
+            
+            <div id="icons">
+                <div class="col-3 col-icon">
+                    <div class="icons">
+                        <img class="icon-img" src="../../assets/calendar.svg">
+                        <div class="icon-text">{{'Warranty.2' | translate}}</div>
+                    </div>
+                </div>
+                <div class="col-3 col-icon">
+                    <div class="icon">
+                        <img class="icon-img" src="../../assets/offer.svg">
+                        <div class="icon-text">{{'Warranty.1' | translate}}</div>
+                    </div>
+                </div>
+                <div class="col-3 col-icon">
+                    <div class="icons">
+                        <img class="icon-img" src="../../assets/idea.svg">
+                        <div class="icon-text">{{'Warranty.3' | translate}}</div>
+                    </div>
+                </div>
+                <div class="col-3 col-icon">
+                    <div class="icons">
+                        <img class="icon-img" src="../../assets/measure.svg">
+                        <div class="icon-text">{{'Warranty.4' | translate}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid offer-conteiner">
+        <div id="offer-title">{{'Navbar.offer' | translate}}</div>
+        <div class="row offer-up">
+            <div class="offer-item offer-1"></div>
+            <div class="offer-item offer-2"></div>
+        </div>
+
+        <div class="row offer-down">
+            <div class="offer-item offer-3"></div>
+            <div class="offer-item offer-4"></div>
+        </div>
     </div>
 </div>
 
 <div id="bg"></div>
+

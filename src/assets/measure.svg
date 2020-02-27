@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="161" height="162" viewBox="0 0 161 162">
+  <defs>
+    <filter id="Ellipse_5" x="0" y="0" width="161" height="162" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="measure" transform="translate(8.501 6)">
+    <g transform="matrix(1, 0, 0, 1, -8.5, -6)" filter="url(#Ellipse_5)">
+      <ellipse id="Ellipse_5-2" data-name="Ellipse 5" cx="71.5" cy="72" rx="71.5" ry="72" transform="translate(9 6)" fill="#56a9f1"/>
+    </g>
+    <g id="measure-2" data-name="measure" transform="translate(38.084 43)">
+      <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(0.415)" fill="none" stroke="#fff" stroke-width="5">
+        <ellipse cx="32.5" cy="11.5" rx="32.5" ry="11.5" stroke="none"/>
+        <ellipse cx="32.5" cy="11.5" rx="30" ry="9" fill="none"/>
+      </g>
+      <ellipse id="Ellipse_7" data-name="Ellipse 7" cx="12" cy="2.5" rx="12" ry="2.5" transform="translate(21.415 8)" fill="#fff"/>
+      <line id="Line_24" data-name="Line 24" y2="30.508" transform="translate(2.36 11.674)" fill="none" stroke="#fff" stroke-width="5"/>
+      <path id="Path_19" data-name="Path 19" d="M1293.5,1212.25a35.332,35.332,0,0,0,20.268,14.975c8.857,2.389,15.1.872,22.314-.022a45.722,45.722,0,0,1,12.948.022c13.916,2.107,20.4,8.427,20.4,8.427" transform="translate(-1291.141 -1199.171)" fill="none" stroke="#fff" stroke-width="5"/>
+      <path id="Path_20" data-name="Path 20" d="M1293.5,1210.717a35.332,35.332,0,0,0,20.268,14.975c8.857,2.389,15.1.872,22.314-.021a45.717,45.717,0,0,1,12.948.021c13.916,2.107,20.4,8.427,20.4,8.427l-.7-29.646" transform="translate(-1291.141 -1169.538)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="5"/>
+      <line id="Line_25" data-name="Line 25" y2="16.86" transform="translate(63.376 11.674)" fill="none" stroke="#fff" stroke-width="5"/>
+      <path id="Path_21" data-name="Path 21" d="M1.9.2l8.984,3.23V31.093L3.01,28.671Z" transform="translate(67.417 32.106)" fill="#fff"/>
+      <path id="Path_22" data-name="Path 22" d="M1.769.7,4.6,1.3V5.757H0Z" transform="translate(75.017 30.404)" fill="#fff"/>
+      <path id="Path_24" data-name="Path 24" d="M0,1.177A10.832,10.832,0,0,0,2.588,2.99c1.235.524,2.8,1.117,2.8,1.117V19.8L0,18.966Z" transform="translate(14.001 32.955)" fill="#fff"/>
+      <path id="Path_25" data-name="Path 25" d="M0,0A12.378,12.378,0,0,0,1.361,1.763a4.591,4.591,0,0,0,1.344.954l.127,9.861L0,12.043Z" transform="translate(7.578 36.161)" fill="#fff"/>
+      <path id="Path_26" data-name="Path 26" d="M0,1.3A6.343,6.343,0,0,0,2.037,2.5a7.8,7.8,0,0,0,2.3.475l.2,9.861L0,12.3Z" transform="translate(22.832 43.131)" fill="#fff"/>
+      <path id="Path_27" data-name="Path 27" d="M0,2.29s1.149.177,2.37.247A11.141,11.141,0,0,0,5,2.29l.243,10.74L0,12.494Z" transform="translate(32.466 44.54)" fill="#fff"/>
+      <path id="Path_28" data-name="Path 28" d="M0,3.745a19.439,19.439,0,0,1,2.894-.983,16.951,16.951,0,0,1,3.36-.409V19.194L0,18.35Z" transform="translate(40.495 36.77)" fill="#fff"/>
+      <path id="Path_29" data-name="Path 29" d="M0,1.263A5.831,5.831,0,0,1,2.664.873a14.68,14.68,0,0,1,2.37.92l.318,10.947L0,12.2Z" transform="translate(50.931 42.422)" fill="#fff"/>
+      <path id="Path_30" data-name="Path 30" d="M0,1.177a26.241,26.241,0,0,1,2.817.566A12.38,12.38,0,0,1,5.324,2.95l.25,9.861L0,12.275Z" transform="translate(60.566 43.957)" fill="#fff"/>
+    </g>
+    <line id="Line_26" data-name="Line 26" x2="0.803" y2="19.268" transform="translate(112.7 81.971)" fill="none" stroke="#56a9f1" stroke-width="4"/>
+  </g>
+</svg>

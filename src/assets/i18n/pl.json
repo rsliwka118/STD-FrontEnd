@@ -11,31 +11,21 @@
         "start": "Oferta"
     },
 
-    "Footer":{},
-
-    "Login":{
-        "forgot": "Zapomniałem hasła",
-        "forgotEmail": "Podaj adres Email",
-        "login": "Login",
-        "password": "Hasło",
-        "logIn": "Zaloguj",
-        "register": "Nie masz konta? Rejestracja",
-        "remind": "Przypomnij"
+    "Contact":{
+        "name": "STD-Kunstschmiede",
+        "address": "ul. Królewska 1A, 66-620 Gubin",
+        "mail": "std.kunstschmiede@gmail.com",
+        "web": "www.std-kunstschmiede.pl",
+        "pl-number": "PL +48 667 734 667",
+        "de-number": "DE 017 339 674 06"
     },
 
-    "Register":{
-        "registration": "Rejestracja",
-        "register": "Zarejestruj",
-        "login": "Login",
-        "email": "Email",
-        "password": "Hasło",
-        "policy": "Regulamin",
-        "acceptPolicy": "Akceptuję",
-        "haveAccont": "Masz konto? Zaloguj się"
-    },
-    
-    "Movies":{
-        "sortby": "Filtruj"
+    "Warranty":{
+        "warranty": "Gwarantujemy",
+        "1": "Indywidualną wizualizację",
+        "2": "Szybkie terminy",
+        "3": "Doradztwo w planowaniu",
+        "4": "Bezpłatny pomiar"
     }
 
 }

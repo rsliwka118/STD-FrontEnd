@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69" height="69" viewBox="0 0 69 69">
+  <defs>
+    <filter id="Ellipse_2" x="0" y="0" width="69" height="69" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_1" x="4" y="4" width="61" height="61" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Contact" transform="translate(-1174.714 -510.714)">
+    <g transform="matrix(1, 0, 0, 1, 1174.71, 510.71)" filter="url(#Ellipse_2)">
+      <g id="Ellipse_2-2" data-name="Ellipse 2" transform="translate(9 9)" fill="none" stroke="#56a9f1" stroke-width="3">
+        <circle cx="25.5" cy="25.5" r="25.5" stroke="none"/>
+        <circle cx="25.5" cy="25.5" r="24" fill="none"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1174.71, 510.71)" filter="url(#Ellipse_1)">
+      <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="21.5" cy="21.5" r="21.5" transform="translate(13 13)" fill="#56a9f1"/>
+    </g>
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="27" height="16" rx="8" transform="translate(1195.714 536.714)" fill="#fff"/>
+    <path id="Polygon_1" data-name="Polygon 1" d="M5.412,0l5.412,7H0Z" transform="matrix(-0.891, 0.454, -0.454, -0.891, 1222.59, 554.041)" fill="#fff"/>
+  </g>
+</svg>
