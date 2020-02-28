@@ -11,15 +11,17 @@
     }
 }
 
-.contact-ico{
+#contact-ico{
     position: fixed;
     z-index: 1000;
     bottom: 10px;
     right: 0;
     padding-right: 15%;
-    /* transition: all 0.2s; */
 }
 
+#contact-ico img{
+    height: 70px;
+}
 #logo
 {
     width: 80px;
@@ -123,7 +125,7 @@
 }
 
 @media (max-width: 992px){
-    .contact-ico{
+    #contact-ico{
         padding-right: 10px;
     }    
 }

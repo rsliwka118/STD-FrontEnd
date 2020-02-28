@@ -26,6 +26,13 @@
         "2": "Szybkie terminy",
         "3": "Doradztwo w planowaniu",
         "4": "Bezpłatny pomiar"
+    },
+
+    "Offer":{
+        "1": "Aluminium",
+        "2": "Konstrukcje",
+        "3": "Stal nierdzewna",
+        "4": "Stal czarna"
     }
 
 }
