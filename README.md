@@ -1,4 +1,4 @@
-# STD-Kunstschmiede site
+# STD-Kunstschmiede
 
 This [Angular](https://angular.io/) project was created for the STD-Kunstschmiede company.
 
